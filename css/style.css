@@ -1,0 +1,17 @@
+/*Global*/
+@import "./global/reset.css";
+@import "./global/header.css";
+
+/*Home*/
+@import "./home/home.css";
+
+/*Services*/
+@import "./services/service.css";
+@import "./services/services.css";
+
+/*About*/
+@import "./about/about.css";
+@import "./about/pricing.css";
+
+/*Footer*/
+@import "./footer/footer.css"

@@ -1,0 +1,52 @@
+.home{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: url("../../images/slider-left-dec.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.home .imagem{
+    width: 50%;
+}
+.home .imagem img{
+    width: 100%;
+}
+
+.home .content{
+    width: 40%;
+    padding: 1rem;
+}
+
+.home .content h1{
+    font-size: 2.125rem;
+    margin-bottom: 1.25rem;
+}
+
+.home .content p{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.btn{
+    padding: .90rem 2rem;
+    border-radius: 50px;
+    background: #4e89e2;
+    color: #fff;
+}
+
+
+@media (max-width: 786px){
+   .home{
+     flex-direction: column;
+     justify-content: center;
+   }
+   .home .content{
+     width: 100%;
+   }
+   .home .imagem{
+    width: 100%;
+   }
+}

@@ -1,0 +1,21 @@
+.service{
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-image: url("../../images/services-right-dec.png");
+    background-repeat:no-repeat;
+    background-position:center;
+    text-align: center;
+}
+
+h2{
+    font-size: 2.56rem;
+}
+
+.color{
+  color:#4e89e2;
+}
+
+p{
+    margin-top: 2rem;
+    font-size: 1.23rem;
+}
